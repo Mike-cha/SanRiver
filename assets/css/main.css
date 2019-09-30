@@ -31,7 +31,6 @@ ol, ul {
   padding-right: 30px;
 }
 
-<<<<<<< HEAD
 .search-bar {
   width: 30%;
   height: 50%;
@@ -101,46 +100,6 @@ ol, ul {
   background-position-y: -200px;
   background-size: 100%;
   background-repeat: no-repeat;
-=======
-.footer  {
-  background-color: #414141;
-  width: 100%;
-  height: 140px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-top: 30px;
-}
-
-.footer img {
-  width: 150px;
-  vertical-align: middle;
-}
-
-.logo-copyr {
-  display: flex;
-  color: #fff;
-}
-
-.footer-nav {
-  display: flex;
-}
-
-.footer-nav a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 16px;
-  padding-right: 20px;
-}
-
-.social-contenedor img {
-  width: 40px;
-  margin: 5px;
-}
-
-#home-cover {
-  background-image: url(../img/color-ventanas.jpg);
->>>>>>> ed225ecebd3603435cc132f42af1ec2855e27300
   height: 70vh;
   width: 100vw;
   display: flex;
@@ -151,6 +110,15 @@ ol, ul {
   color: #fff;
   margin-top: 30px;
   box-shadow: 0px 5px 5px #c7c7c7;
+}
+
+.text-hero {
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  line-height: 100px;
+  font-weight: 900;
+  text-shadow: 4px 4px 1px #3030309f, 7px 7px 5px #1d1d1d9f;
 }
 
 /*# sourceMappingURL=main.css.map */

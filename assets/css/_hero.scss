@@ -1,13 +1,8 @@
-<<<<<<< HEAD
 #home-cover {
     background-image: url(../img/color-ventanas3.jpg);
     background-position-y: -200px;
     background-size: 100%;
     background-repeat: no-repeat;
-=======
-#home-cover{
-    background-image: url(../img/color-ventanas.jpg);
->>>>>>> ed225ecebd3603435cc132f42af1ec2855e27300
     height: 70vh;
     width: 100vw;
     display: flex;
@@ -15,12 +10,16 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    color: #fff;
+    color: $color-back;
     margin-top: 30px;
     box-shadow: 0px 5px 5px #c7c7c7;
-<<<<<<< HEAD
-  }
-=======
-
 }
->>>>>>> ed225ecebd3603435cc132f42af1ec2855e27300
+.text-hero {
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    line-height: 100px;
+    font-weight: 900;
+    text-shadow: 4px 4px 1px #3030309f, 7px 7px 5px #1d1d1d9f;
+    }
+
