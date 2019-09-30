@@ -1,5 +1,7 @@
-body {
+* {
   font-family: "Livvic";
+  margin: 0%;
+  padding: 0%;
 }
 
 ol, ul {
@@ -81,6 +83,7 @@ ol, ul {
 }
 
 .departamentos a {
+  color: #686868;
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
@@ -90,6 +93,23 @@ ol, ul {
 .departamentos a img {
   height: 15px;
   vertical-align: middle;
+}
+
+#home-cover {
+  background-image: url(../img/color-ventanas3.jpg);
+  background-position-y: -200px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  margin-top: 30px;
+  box-shadow: 0px 5px 5px #c7c7c7;
 }
 
 /*# sourceMappingURL=main.css.map */
