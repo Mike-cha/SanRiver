@@ -1,0 +1,28 @@
+.block-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.recuadro1{
+    @extend %recuadros;
+    
+}
+.recuadro2{
+    @extend %recuadros;
+}
+.recuadro3{
+    @extend %recuadros;
+}
+.recuadro4{
+    @extend %recuadros;
+}
+.ima{
+   height: 60%;
+   width: 40%; 
+}
+.texto1{
+    box-sizing: border-box;
+}
+.texto2{
+    box-sizing: border-box;
+}
