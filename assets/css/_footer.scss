@@ -15,7 +15,9 @@
 
   .logo-copyr {
     display: flex;
+    align-items: flex-end;
     color: $color-back;
+    font-size: 12px;
   }
 
   .footer-nav {
