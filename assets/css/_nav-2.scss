@@ -12,6 +12,7 @@
 
 .nav-departamentos ul {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .departamentos a {
@@ -20,8 +21,4 @@
     font-size: 16px;
     font-weight: 400;
     margin: 40px;
-}
-.departamentos a img {
-    height: 15px;
-    vertical-align: middle;
 }

@@ -1,3 +1,43 @@
-@media screen and (max-width: 768;){
-    border: 10px solid green;
+@media screen and (max-width: 1024px){
+   
+    }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+        .search-bar{
+        width: 40px;
+        }
+    }
+
+    
+@media screen and (max-width: 767px){
+   .navegador{
+       display: flex;
+       height: auto;
+       align-items: center;
+       justify-content: center;
+       margin: 20px;
+   }
+   .logo-san{
+       padding: 0;
+   }
+   .navegador .search-bar{
+       width: 90%;
+       margin: 20px;
+   }
+   .nav-departamentos{
+    height: auto;
+   }
+   .nav-departamentos ul{
+    display: block;
+   }
+   .nav-departamentos ul li{
+       height: 30px;
+   }
 }
+@media screen and (max-width: 480px){
+   
+}
+@media screen and (max-width: 320px){
+   
+}
+

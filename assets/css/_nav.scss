@@ -4,10 +4,11 @@
 }
 
 .navegador{
-    width:100%;
+    flex:1;
     background-color:$color-back;
     height:70px;
     display:flex;
+    flex-wrap: wrap;
     justify-content:space-between;
     align-items:center;
 }
@@ -20,8 +21,8 @@
 }
 
 .search-bar {
-    width: 30%;
-    height: 50%;
+    width: 50%;
+    height: 35px;
     border: 1px solid #d1d1d1;
     border-radius: 10px;
     display: flex;
