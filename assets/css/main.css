@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   font-family: "Livvic";
   margin: 0%;
@@ -214,8 +213,8 @@ ol, ul {
   margin-top: 40px;
 }
 
-.footer  {
-  background-color: #414141;
+.footer {
+  background-color: #686868;
   width: 100%;
   height: 140px;
   display: flex;
