@@ -4,7 +4,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
         .search-bar{
-        width: 40px;
+        width: 40%;
         }
     }
 
@@ -26,6 +26,7 @@
    }
    .nav-departamentos{
     height: auto;
+    padding-top: 10px;
    }
    .nav-departamentos ul{
     display: block;
@@ -35,7 +36,10 @@
    }
 }
 @media screen and (max-width: 480px){
-   
+    .text-hero{
+        font-size: 40px;
+        line-height: 68px;
+    }
 }
 @media screen and (max-width: 320px){
    
