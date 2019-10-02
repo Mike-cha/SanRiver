@@ -8,9 +8,14 @@
     <link rel="icon" type="image/png" href="assets/img/logo-pequeno.png">
     <link href="https://fonts.googleapis.com/css?family=Livvic:400,700,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 </head>
 <body>
+    <div class="burger-button" id="burger-menu">
+        <i class="fas fa-bars"></i>
+    </div>
     <header>
        <nav class="navegador">
             <a class="logo-sanriver" href="">
@@ -29,9 +34,6 @@
     <nav class="nav-departamentos">
         
             <ul class="departamentos">
-            <li>
-                <a href="#">Todos los Departamentos <img src="assets/img/flecha_bajo.svg" alt="flecha_aba"></a>
-            </li> 
             <li><a href="#">Pinturas</a>
             </li> 
             <li><a href="#">Materiales</a>
@@ -84,8 +86,6 @@
         <p>© 2019</p>
     </div>
     <ul class="footer-nav" style="list-style-type: none;">
-            <li><a href="#">Todos los Departamentos</a>
-            </li> 
             <li><a href="#">Pinturas</a>
             </li> 
             <li><a href="#">Materiales</a>
@@ -100,10 +100,26 @@
         <a href="#"><img src="assets/img/twitter.svg" alt="logo-twitter"></a>
         <a href="#"><img src="assets/img/youtube.svg" alt="logo-youtube"></a>
     </div>
-        
+    <script>
+            console.log('Hola mundo');
+            
     
-
-
-
+            const menu = document.querySelector('.nav-departamentos');
+            console. log (menu);
+            const burgerButton = document.querySelector('#burger-menu');
+            console. log (burgerButton);
+            
+    
+            burgerButton.addEventListener('click', hideShow)
+    
+            function hideShow() {
+                if(menu.classList.contains('is-active')) {
+                    menu.classList.remove('is-active');
+                } else {
+                    menu.classList.add('is-active');
+                    }
+            }
+             
+    </script>
 </footer>
 </html>
