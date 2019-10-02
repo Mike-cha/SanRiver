@@ -1,5 +1,5 @@
 #home-cover {
-    background-image: url(../img/color-ventanas3.jpg);
+    background-image: url(../img/color-primaria.jpg);
     background-size: cover;
     height: 80vh;
     width: 100vw;
@@ -13,12 +13,13 @@
     margin-top: 20px;
     box-shadow: $sombra-bloque;
 }
+
 .text-hero {
     font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 15px;
     line-height: 100px;
-    font-weight: 900;
+    font-weight: 700;
     text-shadow: $sombra-texthero;
     text-align: center;
     }
