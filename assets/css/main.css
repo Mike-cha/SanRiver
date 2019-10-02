@@ -111,7 +111,7 @@ ol, ul {
 #home-cover {
   background-image: url(../img/color-ventanas3.jpg);
   background-size: cover;
-  height: 70vh;
+  height: 80vh;
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
@@ -131,6 +131,7 @@ ol, ul {
   line-height: 100px;
   font-weight: 900;
   text-shadow: 4px 4px 1px #3030309f, 7px 7px 5px #1d1d1d9f;
+  text-align: center;
 }
 
 .tienda-titulo {
@@ -272,6 +273,10 @@ ol, ul {
   }
 }
 @media screen and (max-width: 767px) {
+  #home-cover {
+    height: initial;
+  }
+
   .burger-button {
     display: flex;
   }
@@ -337,6 +342,29 @@ ol, ul {
   .text-hero {
     font-size: 40px;
     line-height: 68px;
+  }
+
+  .footer {
+    display: block;
+    text-align: center;
+    height: initial;
+    padding: 10px;
+  }
+
+  .footer-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-nav a {
+    height: 30px;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .logo-copyr {
+    display: block;
+    text-align: center;
   }
 }
 

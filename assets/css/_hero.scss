@@ -1,7 +1,7 @@
 #home-cover {
     background-image: url(../img/color-ventanas3.jpg);
     background-size: cover;
-    height: 70vh;
+    height: 80vh;
     width: 100vw;
     display: flex;
     flex-wrap: wrap;
@@ -20,5 +20,6 @@
     line-height: 100px;
     font-weight: 900;
     text-shadow: $sombra-texthero;
+    text-align: center;
     }
 
