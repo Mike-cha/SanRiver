@@ -1,7 +1,7 @@
 .recuadro4, .recuadro3, .recuadro2, .recuadro1 {
   display: flex;
   justify-content: space-around;
-  flex-direction: column;
+  flex-direction: row;
   width: 45%;
   height: 20vh;
   margin: 20px;
@@ -148,10 +148,14 @@ ol, ul {
 
 .texto1 {
   box-sizing: border-box;
+  margin: 0% !important;
+  font-size: 15px;
 }
 
 .texto2 {
   box-sizing: border-box;
+  margin: 0% !important;
+  font-size: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
