@@ -10,6 +10,10 @@ ol, ul {
   padding: 0;
 }
 
+body {
+  color: #686868;
+}
+
 .burger-button {
   width: 40px;
   height: 40px;
@@ -106,6 +110,65 @@ ol, ul {
   font-size: 16px;
   font-weight: 400;
   margin: 40px;
+}
+
+.carrito-titulo {
+  text-align: center;
+  color: #08b8a9;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  margin-bottom: 20px;
+}
+
+.carrito-contenedor {
+  background-color: #f8f8f8;
+  width: 100vw;
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.carrito-producto {
+  display: flex;
+  justify-content: space-between;
+  height: 150px;
+  align-items: center;
+  border-top: 1px solid white;
+}
+
+.carrito-producto img {
+  width: 100px;
+  margin-left: 40px;
+}
+
+.precio-num {
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+}
+
+.precio-num ul {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.precio-num ul li {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.precio-num input {
+  width: 30px;
+  height: 20px;
+  border: 1px solid #d1d1d1;
+  border-radius: 10px;
+}
+
+::placeholder {
+  color: #c5c5c5c5;
 }
 
 .footer {
