@@ -6,12 +6,10 @@ $color-nav2: #f8f8f8;
 $color-placeholder: #c5c5c5c5;
 $separa-stroke: 1px solid #d1d1d1;
 %recuadros{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: row;
-    width: 45%;
+    display: block;
+    width: 80vh;
     height: 20vh;
     margin: 20px;
     box-shadow: 0px 5px 5px #c7c7c7;
-    
+    padding: 10px;
 } 

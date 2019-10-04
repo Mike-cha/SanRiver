@@ -18,16 +18,25 @@
     @extend %recuadros;
 }
 .ima{
-   height: 60%;
+   height: 90%;
    width: 40%; 
+   float: left;
+   margin: 5px;
+
+}
+.izq{
+    float: right;
 }
 .texto1{
     box-sizing: border-box;
     margin: 0% !important;
     font-size: 15px;
+    font-family: $font-global; 
+    padding-top: 5px;
 }
 .texto2{
     box-sizing: border-box;
     margin: 0% !important;
     font-size: 10px;
+    font-family: $font-global; 
 }
