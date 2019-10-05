@@ -1,0 +1,35 @@
+#recomendaciones {
+    background-color: $color-nav2;
+    border-top: $separa-stroke;
+    border-bottom: $separa-stroke;
+    padding: 30px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.card {
+    width: 300px;
+    height: 200px;
+    background: $color-back;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.card img{
+    width: 150px;
+}
+
+.card ul{
+    list-style: disc;
+    font-size: 12px;
+}
+
+.card h3{
+    font-size: 15px;
+}

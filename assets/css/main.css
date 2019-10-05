@@ -205,36 +205,38 @@ body {
   transform: translateY(4px);
 }
 
-.recome-contenedor {
+#recomendaciones {
   background-color: #f8f8f8;
   border-top: 1px solid #d1d1d1;
   border-bottom: 1px solid #d1d1d1;
   padding: 30px;
-  margin-top: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
-.container-recomendaciones {
+.card {
   width: 300px;
+  height: 200px;
   background: #fff;
-  display: grid;
-  grid-template: 100px 100px/100px 200px;
-  grid-template-areas: "imagen titulo" "imagen contenido";
+  display: flex;
+  align-items: center;
+  margin: 5px;
 }
 
-.imagen {
-  grid-area: imagen;
+.card img {
+  width: 150px;
 }
 
-.titulo {
-  grid-area: titulo;
+.card ul {
+  list-style: disc;
+  font-size: 12px;
 }
 
-.contenido {
-  grid-area: contenido;
-}
-
-.container-recomendaciones img {
-  width: 100px;
+.card h3 {
+  font-size: 15px;
 }
 
 .footer {
