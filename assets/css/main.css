@@ -205,12 +205,36 @@ body {
   transform: translateY(4px);
 }
 
+.recome-contenedor {
+  background-color: #f8f8f8;
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+  padding: 30px;
+  margin-top: 20px;
+}
+
 .container-recomendaciones {
+  width: 300px;
+  background: #fff;
   display: grid;
-  grid-template: 100px 1fr 150px/200px 1fr;
-  grid-gap: 10px;
-  height: 100vh;
-  grid-template-areas: "header header" "left contenido" "footer footer";
+  grid-template: 100px 100px/100px 200px;
+  grid-template-areas: "imagen titulo" "imagen contenido";
+}
+
+.imagen {
+  grid-area: imagen;
+}
+
+.titulo {
+  grid-area: titulo;
+}
+
+.contenido {
+  grid-area: contenido;
+}
+
+.container-recomendaciones img {
+  width: 100px;
 }
 
 .footer {
