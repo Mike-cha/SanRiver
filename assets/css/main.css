@@ -349,11 +349,21 @@ body {
     font-weight: 700;
     letter-spacing: 2px;
   }
+
+  .precio-num ul {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .precio-num ul li {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 @media screen and (max-width: 480px) {
-  .text-hero {
-    font-size: 40px;
-    line-height: 68px;
+  .precio-num ul {
+    width: 250px;
   }
 
   .footer {
@@ -377,6 +387,26 @@ body {
   .logo-copyr {
     display: block;
     text-align: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .precio-num ul {
+    width: 300px;
+  }
+
+  .carrito-producto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: initial;
+    align-items: center;
+    border-top: 1px solid #d1d1d1;
+    text-align: center;
+  }
+
+  .carrito-producto img {
+    width: 120px;
+    margin-top: 10px;
   }
 }
 
