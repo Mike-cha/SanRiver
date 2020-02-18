@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background-image: url("../img/fondo.png");
   background-size: 100% 100%;
@@ -20,6 +21,47 @@ body {
   background-color: #fff;
   height: 70px;
   display: flex;
+=======
+* {
+  font-family: "Livvic";
+  margin: 0%;
+  padding: 0%;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.burger-button {
+  width: 40px;
+  height: 40px;
+  background: rgba(8, 184, 169, 0.8);
+  z-index: 4;
+  border-radius: 50%;
+  display: flex;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  left: 5px;
+  top: 5px;
+  color: #fff;
+}
+
+.logo-san {
+  width: 230px;
+  padding-left: 30px;
+}
+
+.navegador {
+  flex: 1;
+  background-color: #fff;
+  height: 70px;
+  display: flex;
+  flex-wrap: wrap;
+>>>>>>> home
   justify-content: space-between;
   align-items: center;
 }
@@ -32,8 +74,13 @@ body {
 }
 
 .search-bar {
+<<<<<<< HEAD
   width: 30%;
   height: 50%;
+=======
+  width: 50%;
+  height: 35px;
+>>>>>>> home
   border: 1px solid #d1d1d1;
   border-radius: 10px;
   display: flex;
@@ -52,7 +99,11 @@ body {
 }
 
 ::placeholder {
+<<<<<<< HEAD
   color: #c5c5c5;
+=======
+  color: #c5c5c5c5;
+>>>>>>> home
 }
 
 .search-bar input {
@@ -66,11 +117,14 @@ body {
   padding-left: 20px;
 }
 
+<<<<<<< HEAD
 #logoSan {
   width: 230px;
   padding-left: 30px;
 }
 
+=======
+>>>>>>> home
 .nav-departamentos {
   width: 100%;
   background-color: #f8f8f8;
@@ -85,16 +139,25 @@ body {
 
 .nav-departamentos ul {
   display: flex;
+<<<<<<< HEAD
 }
 
 .departamentos a {
   color: #808080;
+=======
+  flex-wrap: wrap;
+}
+
+.nav-departamentos ul li a {
+  color: #686868;
+>>>>>>> home
   text-decoration: none;
   font-size: 16px;
   font-weight: 400;
   margin: 40px;
 }
 
+<<<<<<< HEAD
 .departamentos a img {
   height: 15px;
   vertical-align: middle;
@@ -109,6 +172,144 @@ body {
   width: 100%;
   height: 140px;
   display: flex;
+=======
+#home-cover {
+  background-image: url(../img/color-primaria.jpg);
+  background-size: cover;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+  box-shadow: 0px 5px 5px #dddddd;
+}
+
+.text-hero {
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  line-height: 100px;
+  font-weight: 700;
+  text-shadow: 4px 4px 1px #3030309f, 7px 7px 5px #1d1d1d9f;
+  text-align: center;
+}
+
+.tienda-titulo {
+  text-align: center;
+  color: #08b8a9;
+  text-transform: uppercase;
+  margin-top: 20px;
+  letter-spacing: 15px;
+}
+
+.tienda-contenedor {
+  background-color: #f8f8f8;
+  width: 100%;
+  margin-top: 30px;
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.block-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-pintura {
+  height: 400px;
+  width: 300px;
+  background-image: url(../img/pintura-esmaltes.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 0px 5px 5px #c7c7c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.box-materiales {
+  height: 400px;
+  width: 300px;
+  background-image: url(../img/materiales-brochas.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 0px 5px 5px #c7c7c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.box-tutoriales {
+  height: 400px;
+  width: 300px;
+  background-image: url(../img/tutoriales.jpg);
+  background-size: cover;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 0px 5px 5px #c7c7c7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.block-boxes p {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  margin-bottom: 30px;
+  font-weight: 900;
+  text-shadow: 2px 2px 1px #3030309f;
+}
+
+.button-tienda {
+  height: 44px;
+  width: 200px;
+  color: #fff;
+  background-color: #08b8a9;
+  margin: 0px;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 3px solid #04665e;
+  box-shadow: 0px 5px 5px #61616175;
+  font-size: 11px;
+  letter-spacing: 6px;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+.button-tienda:hover {
+  background-color: aquamarine;
+}
+
+.button-tienda:active {
+  background-color: #08b8a9;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.footer {
+  background-color: #686868;
+  width: 100%;
+  height: 140px;
+  display: flex;
+  flex-wrap: wrap;
+>>>>>>> home
   justify-content: space-evenly;
   align-items: center;
   margin-top: 30px;
@@ -121,15 +322,25 @@ body {
 
 .logo-copyr {
   display: flex;
+<<<<<<< HEAD
   color: #fff;
 }
 
 ul {
   list-style: none;
+=======
+  align-items: flex-end;
+  color: #fff;
+  font-size: 12px;
+>>>>>>> home
 }
 
 .footer-nav {
   display: flex;
+<<<<<<< HEAD
+=======
+  flex-wrap: wrap;
+>>>>>>> home
 }
 
 .footer-nav a {
@@ -144,4 +355,108 @@ ul {
   margin: 5px;
 }
 
+<<<<<<< HEAD
+=======
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .search-bar {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 767px) {
+  #home-cover {
+    height: initial;
+  }
+
+  .burger-button {
+    display: flex;
+  }
+
+  .logo-san {
+    width: 200px;
+    margin-top: 10px;
+  }
+
+  .navegador {
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+
+  .logo-san {
+    padding: 0;
+  }
+
+  .navegador .search-bar {
+    width: 90%;
+    margin: 9px;
+  }
+
+  .nav-departamentos {
+    height: auto;
+    padding-top: 10px;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    border: none;
+    box-shadow: none;
+    height: 100vh;
+    left: -100vw;
+    background: rgba(46, 46, 46, 0.9);
+    transition: 0.3s;
+  }
+
+  .nav-departamentos.is-active {
+    left: 0;
+  }
+
+  .nav-departamentos ul {
+    display: block;
+  }
+
+  .nav-departamentos ul li {
+    height: 70px;
+    text-align: center;
+  }
+
+  .nav-departamentos ul li a {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .text-hero {
+    font-size: 40px;
+    line-height: 68px;
+  }
+
+  .footer {
+    display: block;
+    text-align: center;
+    height: initial;
+    padding: 10px;
+  }
+
+  .footer-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-nav a {
+    height: 30px;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  .logo-copyr {
+    display: block;
+    text-align: center;
+  }
+}
+
+>>>>>>> home
 /*# sourceMappingURL=main.css.map */
